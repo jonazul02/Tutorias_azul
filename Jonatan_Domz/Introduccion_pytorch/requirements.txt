@@ -1,0 +1,14 @@
+numpy
+tqdm
+pandas
+matplotlib
+seaborn
+scikit-learn
+datasets
+sentence-transformers
+openai
+# Descomentar si quisieran explorar como instalar pytorch con gpu con previo configuración 
+#torch==2.0.1+cu121
+#torchvision==0.15.2+cu121
+#torchaudio==2.0.2+cu121
+#--extra-index-url https://download.pytorch.org/whl/cu121
