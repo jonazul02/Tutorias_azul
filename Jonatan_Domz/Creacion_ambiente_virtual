@@ -1,0 +1,26 @@
+## Se detallara el paso a paso de creación del ambiente virtual.
+
+1. revisar la versión de python que se ejecutará ; comando en terminal: python --version
+2. crear el ambiente, ojo el ambiente se ejecutará con la versión de python que tengan.; 
+    comando en terminal: 
+        - python.exe -m pip install --upgrade pip (se actualiza el pip)
+        - pip install virtualenv    (se instala el creador de ambientes)
+        - python -m venv nombre_del_ambiente (se crea el ambiente llamado "nombre_del_ambiente" CAMBIAR por uno de su elección)
+3. Una vez creado, los comandos para activarlo o desactivarlo son:
+    comando en terminal (windows):
+        - nombre_del_ambiente\Scripts\activate.bat (se activa el ambiente)
+        - nombre_del_ambiente\Scripts\deactivate (se desactiva el ambiente)
+        
+    comando en terminal (Linux/Mac):
+        - Source nombre_del_ambiente/bin/activate (se activa el ambiente)
+        - deactivate (se desactiva el ambiente)
+
+4. CON EL AMBIENTE ACTIVO, para instalar lo necesario de paqueterias se hace lo siguiente:
+    comando en terminal:
+         - pip install -r requirements.txt
+
+5. Hacer el seteo de variables de entorno:
+    comando en terminal (WINDOWS):
+        - set PYTHONPATH=D:\\Proyectos\\Cursos\\Tutorias_sabados\\Tutorias_DS
+    comando en terminal (Linux/Mac):
+        #- export PYTHONPATH=D:\\Proyectos\\Cursos\\Tutorias_sabados\\
