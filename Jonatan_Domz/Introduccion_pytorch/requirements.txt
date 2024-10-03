@@ -7,6 +7,13 @@ scikit-learn
 datasets
 sentence-transformers
 openai
+plotly
+gensim
+setuptools
+wheel
+pybind11
+glove-python
+Cython
 # Descomentar si quisieran explorar como instalar pytorch con gpu con previo configuración 
 #torch==2.0.1+cu121
 #torchvision==0.15.2+cu121
